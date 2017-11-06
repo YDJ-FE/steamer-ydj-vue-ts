@@ -1,0 +1,8 @@
+/**
+  * the base scss which includes varible,mixins and functions for components/apps/pages
+  * @author vega <vegawong@126.com>
+  **/
+@import "~bourbon/app/assets/stylesheets/bourbon";
+@import "var";
+@import "mixins";
+@import "functions";

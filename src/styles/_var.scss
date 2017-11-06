@@ -1,0 +1,33 @@
+/**
+ * global variables declartion
+ * @author vega <vegawong@126.com>
+ **/
+
+// *** sass-bem default config, you can change config here ***/
+$bem: (
+  "debug": false,
+  "separator": ("element": "__", "modifier": "--", "state": "-"),
+  "namespace":
+  (
+    "component": "c",
+    "hack": "_",
+    "object": "o",
+    "scope": "s",
+    "test": "qa",
+    "theme": "t",
+    "utility": "u"
+  ),
+  "shortcodes": ("ab": ("before", "after"))
+);
+
+// *** bourbon:galobal-setting ***/
+$output-bourbon-deprecation-warnings: false;
+$em-base: 75px;
+$prefix-for-webkit: false;
+$prefix-for-mozilla: false;
+$prefix-for-microsoft: false;
+$prefix-for-opera: false;
+$prefix-for-spec: false;
+
+// *** color ***/
+$color-primary: #2aaeff;
