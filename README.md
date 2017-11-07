@@ -1,6 +1,6 @@
-# steamer-example
+# STEAMER-YDJ-VUE-TS
 
-steamer starterkit 例子
+基于steamerjs体系的vue+ts+scss项目脚手架
 
 ## 开发
 ```javascript
