@@ -12,18 +12,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SteamerTeam/steamer-ydj-vue-ts.git"
+    "url": "git+https://github.com/YDJ-FE/steamer-ydj-vue-ts.git"
   },
   "keywords": [
     "steamer starterkit",
     "boilerplate"
   ],
-  "author": "SteamerTeam",
+  "author": "YDJ-FE",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/SteamerTeam/steamer-ydj-vue-ts/issues"
+    "url": "https://github.com/YDJ-FE/steamer-ydj-vue-ts/issues"
   },
-  "homepage": "https://github.com/SteamerTeam/steamer-ydj-vue-ts#readme",
+  "homepage": "https://github.com/YDJ-FE/steamer-ydj-vue-ts#readme",
   "dependencies": {},
   "devDependencies": {
     "@types/node": "^8.0.47",
