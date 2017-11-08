@@ -1,7 +1,7 @@
 import 'styles/app.scss'
 import Vue from 'vue'
 import { IState, createStore } from 'store'
-import App from './App.vue'
+import App from './Index.vue'
 import router from 'router'
 import svgicon = require('vue-svgicon')
 import Vuex from 'vuex'
