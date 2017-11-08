@@ -1,4 +1,4 @@
 export interface IProductState {
-  productCode: string,
-  price: number
+    productCode: string;
+    price: number;
 }

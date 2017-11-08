@@ -1,16 +1,14 @@
-import Vue from 'vue'
-import Router, { RouteConfig } from 'vue-router'
+import Vue from 'vue';
+import Router, { RouteConfig } from 'vue-router';
 
 // routes
-import homeRoute from './home'
-import productRoute from './product'
+import homeRoute from './home';
+import productRoute from './product';
 
-Vue.use(Router)
+Vue.use(Router);
 
-let routes: RouteConfig[] = []
+let routes: RouteConfig[] = [];
 
 export default new Router({
-  routes: routes
-    .concat(homeRoute)
-    .concat(productRoute)
-})
+    routes: routes.concat(homeRoute).concat(productRoute)
+});

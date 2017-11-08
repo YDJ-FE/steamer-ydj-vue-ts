@@ -2,22 +2,27 @@
  * product module router
  */
 
-import { RouteConfig } from 'vue-router'
+import { RouteConfig } from 'vue-router';
 
 function getView(name) {
-  return (resolve, reject) => {
-    require.ensure([], (require) => {
-      resolve(require(`views/${name}/index.ts`))
-    }, reject, 'product')
-  }
+    return (resolve, reject) => {
+        require.ensure(
+            [],
+            require => {
+                resolve(require(`views/${name}/index.ts`));
+            },
+            reject,
+            'product'
+        );
+    };
 }
 
 let routes: RouteConfig[] = [
-  {
-    name: 'productList',
-    path: '/product',
-    component: getView('product')
-  }
-]
+    {
+        name: 'productList',
+        path: '/product',
+        component: getView('product')
+    }
+];
 
-export default routes
+export default routes;

@@ -1,6 +1,4 @@
 {
-  "extends": ["tslint:recommended", "tslint-config-prettier"],
-  "rules": {
-    "indent": [true, "tabs", 2]
-  }
+  "extend": ["tslint:recommended", "tslint-config-prettier"],
+  "rules": {}
 }

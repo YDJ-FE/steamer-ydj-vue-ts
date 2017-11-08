@@ -1,7 +1,10 @@
 module.exports = {
-    "extends": ["ydj"],
-    "plugins": [
-      
+    "extends": [
+        "ydj"        
+    ],
+    "rules": {        
+    },
+    "plugins": [        
     ],
     "globals": {
         

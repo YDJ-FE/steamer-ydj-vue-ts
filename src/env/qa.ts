@@ -1,6 +1,5 @@
-import env from './dev'
+import env from './dev';
 
-env.env = 'qa'
+env.env = 'qa';
 
-export default env
-
+export default env;

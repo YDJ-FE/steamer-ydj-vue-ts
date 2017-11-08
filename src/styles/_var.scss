@@ -5,19 +5,19 @@
 
 // *** sass-bem default config, you can change config here ***/
 $bem: (
-  "debug": false,
-  "separator": ("element": "__", "modifier": "--", "state": "-"),
-  "namespace":
-  (
-    "component": "c",
-    "hack": "_",
-    "object": "o",
-    "scope": "s",
-    "test": "qa",
-    "theme": "t",
-    "utility": "u"
-  ),
-  "shortcodes": ("ab": ("before", "after"))
+    "debug": false,
+    "separator": ("element": "__", "modifier": "--", "state": "-"),
+    "namespace":
+    (
+        "component": "c",
+        "hack": "_",
+        "object": "o",
+        "scope": "s",
+        "test": "qa",
+        "theme": "t",
+        "utility": "u"
+    ),
+    "shortcodes": ("ab": ("before", "after"))
 );
 
 // *** bourbon:galobal-setting ***/

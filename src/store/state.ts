@@ -1,5 +1,5 @@
-import * as IProductState from './product/state'
+import * as IProductState from './product/state';
 
 export interface IState {
-  IProductState
+    IProductState;
 }
