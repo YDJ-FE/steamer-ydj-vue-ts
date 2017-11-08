@@ -1,6 +1,6 @@
 {
   "name": "steamer-ydj-vue-ts",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "steamer starterkit :: vue-ts-scss by YDJ-FE",
   "main": "./.steamer/steamer-ydj-vue-ts.js",
   "scripts": {

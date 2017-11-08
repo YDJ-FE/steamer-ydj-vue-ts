@@ -12,7 +12,7 @@
 
 npm i -g steamerjs steamer-plugin-kit
 
-npm i -g steamer-vue
+npm i -g steamer-ydj-vue-ts.js
 
 steamer kit
 ```
