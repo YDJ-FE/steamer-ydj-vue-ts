@@ -1,8 +1,13 @@
 # STEAMER-YDJ-VUE-TS
 基于steamerjs体系的vue+ts+scss项目脚手架
 
-
 * 参考/基于官方脚手架[steamer-vue](https://github.com/steamerjs/steamer-vue)的改造
+
+* 脚手架使用`vue + ts + scss`的搭配， scss上用上了`sass-bem`的包，推荐使用bem风格的样式代码，
+
+* vuex 方面使用`vuex-typescript`，比起vuex-class代码量会稍微有点多， 但是拥有更好的类型推断
+
+* 由于目前对vue跟ts的亲善程度还没达到理想状态，即使配合上堪称完美的`vscode`，开发体验还是有点瑕疵，故暂时还是使用多文件组件方式开发， 配合[https://github.com/YDJ-FE/steamer-plugin-ydj-add](https://github.com/YDJ-FE/steamer-plugin-ydj-add)插件快速生成基础代码文件
 
 ## 快速启动
 
