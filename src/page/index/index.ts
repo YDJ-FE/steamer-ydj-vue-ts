@@ -3,7 +3,7 @@ import Vue from 'vue'
 import { IState, createStore } from 'store'
 import App from './Index.vue'
 import router from 'router'
-import svgicon = require('vue-svgicon')
+import svgicon from 'vue-svgicon'
 import Vuex from 'vuex'
 
 // import all icons
