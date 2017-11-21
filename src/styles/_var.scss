@@ -22,7 +22,7 @@ $bem: (
 
 // *** bourbon:galobal-setting ***/
 $output-bourbon-deprecation-warnings: false;
-$em-base: 75px;
+$rem-base: 75;  // 750设计稿 = 10rem 搭配flexible
 $prefix-for-webkit: false;
 $prefix-for-mozilla: false;
 $prefix-for-microsoft: false;

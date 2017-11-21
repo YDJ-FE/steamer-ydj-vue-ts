@@ -3,3 +3,6 @@
  * @author vega <vegawong@126.com>
  **/
 
+@function rem($px) {
+    @return ($px/$rem-base)*1rem;
+}
